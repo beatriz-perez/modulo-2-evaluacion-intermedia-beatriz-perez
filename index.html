@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8" />
-  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ev.int. de Beatriz - Módulo 2</title>
   <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
@@ -16,6 +16,17 @@
 
 <body>
 
+  <main>
+    <h1>Adivina el número</h1>
+    <form>
+      <label for="number">Introduce aquí tu número:</label>
+      <input type="number" id="number" name="number">
+    </form>
+    <button id="button">prueba</button>
+
+    <p>Pista: <span class="hint">Escribe un número y dale a Prueba</span></p>
+    <p>Número de intentos: <span class="count"></span></p>
+  </main>
 
 
   <script type="text/javascript" src="./js/main.js"></script>
