@@ -17,13 +17,14 @@ const hintBox = document.querySelector('.hint');
 const countBox = document.querySelector('.count');
 let round = 0;
 countBox.innerHTML = round;
-
+const background = document.querySelector('.background');
 
 function checkNumber () {
     const myNumber = parseInt(numberInput.value);
     if (myNumber === winnerNumber) {
         hintBox.innerHTML = 'Has ganado campeona!!!';
         tryButton.classList.add('hidden') // Al ganar el botón desaparece para detener el juego
+        background.classList.add('winner'); // Cambiamos el fondo para celebrarlo
     } else if (myNumber < winnerNumber && myNumber > 0) {
         hintBox.innerHTML = 'Demasiado bajo';
     } else if (myNumber > winnerNumber && myNumber < 101) {

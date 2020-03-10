@@ -3,6 +3,62 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.main__container{
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+  padding: 45px;
+}
+.main__title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+.form__label{
+  display: block;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.form__input{
+  display: block;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+.main__button{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(0.25turn, #84DCC6, #FFA69E);  
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  border: 0px;
+}
+
+.main__text{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  padding: 15px;
+  border: 2px solid lightgray;
+  margin-bottom: 20px;
+}
+.text__span{
+  font-weight: 400;
+}
+.winner{
+  background-color: #FF686B;
 }
 
 .hidden{
